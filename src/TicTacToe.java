@@ -26,7 +26,7 @@ public class TicTacToe {
         int length = 0, width = 0;
         boolean done = false;
         Scanner input = new Scanner(System.in);
-        
+
         do {
             try {
                 do {
@@ -44,6 +44,8 @@ public class TicTacToe {
                     done = true;
             }
         } while (!done);
+
+        System.out.println("Hello");
 
         new TicTacToe(length, width);
     }
