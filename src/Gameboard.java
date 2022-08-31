@@ -18,6 +18,10 @@ public class Gameboard {
             }
         }
     }
+    public void updateGameboard(String[][] gameboard) {
+        this.gameboard = gameboard;
+    }
+    public String[][] getGameboard() { return gameboard; }
     public void showGameboard() {
         System.out.println();
 
